@@ -6,5 +6,7 @@ namespace :admin do
   resources :products
 end
 
-root "admin/products#index"
+resources :products
+
+root "products#index"
 end
