@@ -9,10 +9,15 @@ end
 
  def add_to_cart
    @product = Product.find(params[:id])
+   if !current_cart.products.include?(@product)
    current_cart.add_product_to_cart(@product)
-   redirect_to :back
-   flash[:notice] = "加入购物车成功"
+
+   flash[:notice] = "成功将#{@product.title}加入购物车"
+ else
+   flash[:warning] = "你的购物车里有了啊，别加了，讨厌"
  end
+ redirect_to :back
+ end 
 
 helper_method :current_cart
  def current_cart
