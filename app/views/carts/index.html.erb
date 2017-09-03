@@ -1,5 +1,6 @@
 <div class="row">
   <div class="col-md-12">
+    <%= link_to("清除购物车", clean_carts_path, method: :delete, class: "btn btn-primary btn-sm pull-right", data: { confirm: "确定清空购物车？"}) %>
 
     <h2> 购物车 </h2>
 
