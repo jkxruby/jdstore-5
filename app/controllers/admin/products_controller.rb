@@ -31,7 +31,7 @@ end
 
 def update
  @product = Product.find(params[:id])
- if @product.upate(product_params)
+ if @product.update(product_params)
    redirect_to admin_products_path,notice: "update haha~"
  else
    render :edit
