@@ -1,24 +1,9 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+京东商城
 
-* Ruby version
+普通使用者
+查看商品 加入购物车 购买商品 查看自己已下订单 取消订单
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+管理员
+管理商品 查看所有订单 管理订单，可以设置取消、发货状态
