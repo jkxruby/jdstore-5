@@ -19,8 +19,8 @@ def update
   flash[:notice] = "成功更改数量"
 else
   flash[:warning] = "数量不足"
-end 
-  redirect_to carts_path
+end
+  redirect_to carts_path(@cart)
 end
 
 
