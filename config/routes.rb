@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
 namespace :admin do
   resources :products
+  resources :orders
 end
 
 resources :products do
@@ -30,7 +31,7 @@ resources :orders do
     post :pay_with_alipay
     post :pay_with_wechat
   end
-end 
+end
 
 root "products#index"
 end
