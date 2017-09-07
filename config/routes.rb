@@ -41,5 +41,5 @@ resources :orders do
   end
 end
 
-root "products#index"
+root "welcome#index"
 end
