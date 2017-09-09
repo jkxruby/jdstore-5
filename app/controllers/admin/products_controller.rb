@@ -13,7 +13,7 @@ def show
 end
 
 def new
-  @product = Product.new
+  @product = Product.new(params[:product])
 end
 
 def create
