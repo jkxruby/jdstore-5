@@ -33,10 +33,17 @@ body {
 //---------Box大图部分---------
 
 .box {
-      background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505034937792&di=25d19f1fa21581a3a853a1449b617a00&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1612%2F08%2Fc5%2F31861320_1481178815214_mthumb.jpg');
+      background-image: url('http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1612/08/c5/31861320_1481178815214.jpg')  ;
+
+      background-color: rgba(0,0,0,0.4);
+
+
       background-repeat: no-repeat;
       background-size: cover;
       margin-bottom: 50px;
+
+
+
 
     .box-inner {
         padding-bottom: 5px;
@@ -101,6 +108,7 @@ body {
 //-----我们的优势-----
 .lp-advantage {
   margin-bottom: 100px;
+  margin-top: 100px;
 	.lp-advantage-img {
 		width: 80px;
 		height: 80px;
@@ -116,4 +124,27 @@ body {
 	  font-size: 16px;
 	}
 
+}
+
+.lp-action {
+	background: url('https://ww2.sinaimg.cn/large/006tNbRwgy1fd6gpqtd6tj31hc0dq0xk.jpg') center center no-repeat;
+	height: 200px;
+	.text-content {
+		top: 100px;
+		left: 0;
+		width: 100%;
+		z-index: 10;
+	}
+	p {
+		color: #fff;
+	}
+	// &::before {
+  //   content: "";
+  //   width: 100%;
+  //   height: 100%;
+  //   background-color: transparentize(#000, .99);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  // }
 }
